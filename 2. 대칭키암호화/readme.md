@@ -1,4 +1,4 @@
-## 암호
+## 암호의 기초 
 - 목적 : 기밀성 제공
 
 ### 대표적인 암호알고리즘
@@ -35,4 +35,7 @@
 - 1 XOR 0 XOR 0 = 1
 - P XOR Key = C
 - C XOR Key = P
+- F는 아무거나 상관없다. 하지만 특정한 F에 secure하기 때문에 잘 적용하는 것이 중요
+- F의 대표적 : DES 
+
 ### 공개키 암호화 - Public Key Crypthography
