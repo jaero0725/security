@@ -48,7 +48,7 @@
 > - 운영체제에서 내부적으로 보안 기능을 구현해주고 있다.
 > - OS도 점차적으로 복잡해지지만, 완벽하게 믿을수는 없다. 
 
-### :clipboard: 책 구성요소 살펴보기
+### :clipboard: 책 구성요소 살펴보기 [정보보안 이론과 실제]
 > #### 1) 암호학(Cryptography)
 > - 전통적으로 암호학을 어떻게 사용?
 > -  현재에 암호학을 어떻게 사용?
@@ -61,3 +61,17 @@
 > - 인가 : 자원을 누가 접근할 수 있는지? 
 > - 레벨을 나누어서 관리(Multilevel security - MLS) 
 > - 방화벽, 침입탐지 시스템
+
+> #### 3) 프로토콜
+> - "Butterfly effect" : 프로토콜을 조금만 변경시켜도 시스템 측면에서 거대한 효과를 줄 수 있다. 
+> - SSL(가장 많이씀), IPSec(재택근무중 회사 서버에 들어갈때) , Kerberos(윈도우에서 인증)
+> - GSM security (2G 프로토콜)
+
+> #### 4) 소프트웨어
+> 어떤 결함이 치명적일까? - Buffer overflow, Other common flaws
+> - Malware 탐지
+> - SRE(source <- binary) : sourcecode reverse enginering 리버스엔지니어링을 통해 해커들이 분석함
+> - 디지털 권리 관리(Digital rights management, DRM) : 함부로 복사할 수 없음 ex) Mp3, e-book
+> - Open Source vs Closed Source
+
+Trudy(해커)와 같이 생각하는 것이 중요함.
