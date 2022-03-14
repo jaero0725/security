@@ -74,4 +74,4 @@
 > - 디지털 권리 관리(Digital rights management, DRM) : 함부로 복사할 수 없음 ex) Mp3, e-book
 > - Open Source vs Closed Source
 
-Trudy(해커)와 같이 생각하는 것이 중요함.
+### 결론 : Trudy(해커)와 같이 생각하는 것이 중요함.
