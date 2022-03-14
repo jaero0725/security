@@ -22,12 +22,12 @@
 > - 가용성은 새로운 Securit concern 이 생김 - ex) 디도스 공격 해결 
 
 > #### 4) Access Control (인증, 인가)
-> - 1) Authentication (인증)
+> 1) Authentication (인증)
 > - Bob의 컴퓨터가 어떻게 실제 Bob인지 알 수 있나? - password를 사용
 > - password는 cryptogrphy(암호학)이 필요하다. 
 > - password이 과연 안전한가? - password의 대안 : 패턴, 생채인식 
 > - 네트워크에서는 network securit 이슈가 있다. -> 이런 경우 고려해야할 상황 : Protocols이 중요하다. ex) Https, SSL
-> - 2) Authorization (인가)
+> 2) Authorization (인가)
 > - 인가란 권한에 대한 제한을 두는 것 (읽기 쓰기 권한, 관리자 사용자 권한)
 
 > #### 5) 부인봉쇄 (Non-repudiation)
