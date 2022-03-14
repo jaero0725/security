@@ -30,5 +30,8 @@
 <img src="https://user-images.githubusercontent.com/55049159/158126896-997213bd-365c-47ad-9fab-ac517f3b21be.png" width="400" heigth="400">
 - Block Ciphers를 사용하는 설계 방식, 전반적인 설계 디자인 패턴이라고 보면된다. 
 - 작동방식 : plaintext를 반으로 쪼갠다. 
-
+- XOR의 특징을 이용 : A XOR B XOR B = A 
+- 1 XOR 0 XOR 0 = 1
+- P XOR Key = C
+- C XOR Key = P
 ### 공개키 암호화 - Public Key Crypthography
