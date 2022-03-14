@@ -10,3 +10,7 @@
 - 송신자가 데이터를 보낼때 plainntext, key 가 들어와서 이것을 바탕으로 해서 encrypt(암호화하여) ciphertext(암호문)으로 네트워크로 전달 하면 수신자는 key를 통해 decrpty(복호화) 하여 plaintext로 만든다.
 - 이렇게 키를 사용하는 방식이 대칭키 암호화 방식과 공개키 암호화 방식이 있다. 
 
+### 암호화
+- 가정 : Kerckhoffs Principle - 알고리즘 자체는 공격자에게 모두 공개되어 있다. key만 secret하게 유지가 된다. 
+- secret algorithrms을 비밀스럽게 유지하면 노출되면 굉장이 약하기 때문이다. 
+- 따라서 아예 알고리즘을 공개해서 개선하는 것이 좋다.  
