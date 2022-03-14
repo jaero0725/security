@@ -27,8 +27,8 @@
 - 대부분 software로 구현이 되어 있다. - 크게 느리지 않다!
 
 #### Feistel cipher 
+<img src="https://user-images.githubusercontent.com/55049159/158126896-997213bd-365c-47ad-9fab-ac517f3b21be.png" width="400" heigth="400">
 - Block Ciphers를 사용하는 설계 방식, 전반적인 설계 디자인 패턴이라고 보면된다. 
-- <img src="https://user-images.githubusercontent.com/55049159/158126896-997213bd-365c-47ad-9fab-ac517f3b21be.png" width="400" heigth="400">
 !
 
 ### 공개키 암호화 - Public Key Crypthography
