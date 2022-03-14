@@ -14,3 +14,6 @@
 - 가정 : Kerckhoffs Principle - 알고리즘 자체는 공격자에게 모두 공개되어 있다. key만 secret하게 유지가 된다. 
 - secret algorithrms을 비밀스럽게 유지하면 노출되면 굉장이 약하기 때문이다. 
 - 따라서 아예 알고리즘을 공개해서 개선하는 것이 좋다.  
+
+### 대칭키 암호화 - Symmetric key Crypthography
+### 공개키 암호화 - Public Key Crypthography
