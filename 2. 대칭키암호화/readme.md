@@ -19,7 +19,7 @@
 #### 1. Stream Ciphers 
 - bit단위로 암호화
 - 잘 안씀
-- 
+
 #### 2. Block Ciphers 
 - block단위로 암호화
 - round function을 반복 수행하여 실제로 plaintext에서 Ciphertext를 얻을 수 있다. 
@@ -27,5 +27,7 @@
 - 대부분 software로 구현이 되어 있다. - 크게 느리지 않다!
 
 #### Feistel cipher 
+- Block Ciphers를 사용하는 설계 방식, 전반적인 설계 디자인 패턴이라고 보면된다. 
+![image](https://user-images.githubusercontent.com/55049159/158126896-997213bd-365c-47ad-9fab-ac517f3b21be.png)
 
 ### 공개키 암호화 - Public Key Crypthography
