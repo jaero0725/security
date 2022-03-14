@@ -5,7 +5,7 @@
 
 ### 보안 서비스
 - 보안을 통해 고객에게 어떤 기능을 제공하는가? <br>
-- :CIA 기능 (3가지 기능을 필수로 제공) + (Access Control, 부인봉쇄)
+- :heavy_check_mark: CIA 기능 (3가지 기능을 필수로 제공) + (Access Control, 부인봉쇄)
 
 > #### 1) 기밀성 (Confidentiality) - Reading을 막음
 > - Alice(은행) 입장에서 허가받지않은 사람이 함부로 정보를 읽지 못하게 막는 것. (ex. 도청..)
