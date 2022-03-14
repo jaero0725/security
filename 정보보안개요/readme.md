@@ -1,10 +1,10 @@
 ## 정보보안개요
 ### 예시
-> Alice(은행), Bob(고객)  - good
+> Alice(은행), Bob(고객)  - good <br>
 > Turdy(해커) - Bad
 
 ### 보안 서비스
-- 보안을 통해 고객에게 어떤 기능을 제공하는가? - CIA 기능 (3가지 기능을 필수로 제공)
+- 보안을 통해 고객에게 어떤 기능을 제공하는가? - CIA 기능 (3가지 기능을 필수로 제공) + (Access Control, 부인봉쇄)
 
 > #### 1) 기밀성 (Confidentiality) - Reading을 막음
 > - Alice(은행) 입장에서 허가받지않은 사람이 함부로 정보를 읽지 못하게 막는 것. (ex. 도청..)
@@ -21,8 +21,18 @@
 > - 필요할때 Data는 적시에 이용가능해야 한다.
 > - 가용성은 새로운 Securit concern 이 생김 - ex) 디도스 공격 해결 
 
-4) Access Control (인증, 인가)
-5) 부인봉쇄
+> #### 4) Access Control (인증, 인가)
+> - 1) Authentication (인증)
+> - Bob의 컴퓨터가 어떻게 실제 Bob인지 알 수 있나? - password를 사용
+> - password는 cryptogrphy(암호학)이 필요하다. 
+> - password이 과연 안전한가? - password의 대안 : 패턴, 생채인식 
+> - 네트워크에서는 network securit 이슈가 있다. -> 이런 경우 고려해야할 상황 : Protocols이 중요하다. ex) Https, SSL
+> - 2) Authorization (인가)
+> - 인가란 권한에 대한 제한을 두는 것 (읽기 쓰기 권한, 관리자 사용자 권한)
+
+> #### 5) 부인봉쇄 (Non-repudiation)
+> - 고객이 발뺌할 수 없는 것 - 나중에 부인못하게 하는 것 
+> - 어떻게 부인봉쇄? - 오프라인에서는 계약서에 서명하는 방식으로 한다. 온라인에서는 전자서명을 통해서 부인봉쇄한다. 
 
 ### 소프트웨어 이슈
 - secure coding
