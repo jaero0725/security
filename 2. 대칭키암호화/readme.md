@@ -16,4 +16,10 @@
 - 따라서 아예 알고리즘을 공개해서 개선하는 것이 좋다.  
 
 ### 대칭키 암호화 - Symmetric key Crypthography
+#### 1. Stream Ciphers 
+- bit단위로 암호화
+- 잘 안씀
+#### 2. Block Ciphers 
+- block단위로 암호화
+-
 ### 공개키 암호화 - Public Key Crypthography
