@@ -1,8 +1,8 @@
 # 정보보안 정리 - (ref. 정보보안 이론과 실제)
 ### 정보보안, 암호학, 웹 취약성 공부
 
-#### 1. <a href="https://github.com/jaero0725/security/tree/main/1.%20%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%EA%B0%9C%EC%9A%94"> 정보보안 개요<a>
-#### 2. 암호학 
+#### 1. <a href="https://github.com/jaero0725/security/tree/main/1.%20%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88%EA%B0%9C%EC%9A%94"> 정보보안 개요</a>
+#### 2. <a href="https://github.com/jaero0725/security/edit/main/2.%20%EB%8C%80%EC%B9%AD%ED%82%A4%EC%95%94%ED%98%B8%ED%99%94/readme.md">암호학</a> 
  1) 대칭키(DES, AES)
  2) 공개키(RSA)
  3) 해쉬함수
