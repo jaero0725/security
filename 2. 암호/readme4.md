@@ -35,7 +35,6 @@ Block Size와 독립적이다.
 
 #### **알고리즘**
 
-<iframe src="https://www.youtube.com/embed/mlzxpkdXP58" width="860" height="484" frameborder="0" allowfullscreen="true"></iframe>
 
 알고리즘을 시각화한 자료
 
