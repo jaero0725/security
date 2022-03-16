@@ -33,7 +33,6 @@ Triple DES는 3중 DES이다. key가 112 bit이다. 
 
 #### **작동방식** 
 
-[##_Image|kage@nVK0T/btrv4lHvqM1/xlBI8LujekcZl8VN2K8cO0/img.png|CDM|1.3|{"originWidth":700,"originHeight":205,"style":"alignCenter"}_##]
 
 > **\# 암호화과정   
 >   
