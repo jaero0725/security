@@ -10,7 +10,6 @@
 
 Feistel Cipher는 Block Ciphers를 사용하는 설계 방식, 전반적인 설계 디자인 패턴이라고 보면된다.
 
-[##_Image|kage@bfW5e4/btrvWFyRDeZ/fWWXZd6oPSxo56kbQyPzH0/img.png|CDM|1.3|{"originWidth":520,"originHeight":326,"style":"alignCenter"}_##]
 
 **파이스텔 암호화 동작 방식** 
 
@@ -61,15 +60,12 @@ F의 가장 대표적인 것이 DES이다. 
 
 #### **One Round of DES**
 
-[##_Image|kage@nbikG/btrvXUJgbyJ/BK5xTFhqp4kjUIO7SJV7f0/img.png|CDM|1.3|{"originWidth":560,"originHeight":515,"style":"alignCenter"}_##]
-
 #### **0) 최초로 섞음.**
 
 #### **1) expand 확장  : 32비트를 48비트로 확장** 
 
 DES Expansion Permutation - 섞는다.(순열)
 
-[##_Image|kage@w5lBP/btrvVLrIlHN/LVP9bkMq409qfB6hl0BPak/img.png|CDM|1.3|{"originWidth":425,"originHeight":243,"style":"alignCenter"}_##]
 
 #### **2) DES subkey 를 만들기**
 
@@ -121,7 +117,6 @@ Right half of subkey Ki is RK bits
 
 **\# sbox에서 매핑방법**
 
-[##_Image|kage@CQK7e/btrvZ4Ejlkb/8v5Goik3oBnIS1MKulHPrk/img.png|CDM|1.3|{"originWidth":646,"originHeight":164,"style":"alignCenter"}_##]
 
 예를들어 100001이 오면 맨앞과 맨뒤 한자리를 짤라 11, 그리고나머지 0000 두개가 생긴다. 
 
@@ -131,7 +126,6 @@ Right half of subkey Ki is RK bits
 
 #### **4) DES P-box를 통해 32비트를 섞는다.** 
 
-[##_Image|kage@JoPBl/btrvX8Aa16Z/if80Abr6EXw2kvipZNK2Tk/img.png|CDM|1.3|{"originWidth":501,"originHeight":224,"style":"alignCenter"}_##]
 
 #### **5) swap하고 최종적으로 섞어 ciphertext를 만든다.**
 
