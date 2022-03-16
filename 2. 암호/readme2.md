@@ -138,3 +138,8 @@ Right half of subkey Ki is RK bits
 \- S-boxes가 안정성에 영향을 준다.
 
 \- back door가 없는 것으로 밝혀짐, key를 직접 하나하나 넣어보는 수 밖에없음
+
+
+
+
+https://zeroco.tistory.com/manage/newpost/59?type=post&returnURL=https%3A%2F%2Fzeroco.tistory.com%2F59
