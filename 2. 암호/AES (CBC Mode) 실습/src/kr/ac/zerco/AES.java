@@ -35,8 +35,6 @@ public class AES {
 	    }
 	    return null;
 	}
-	
-	
 	public static String decrypt(String encrypted) {
 	    try {
 	        IvParameterSpec iv = new IvParameterSpec(initVector.getBytes("UTF-8"));
