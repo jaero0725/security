@@ -1,4 +1,4 @@
-[##_Image|kage@bn0dO1/btrw52tfwzM/eKv7GQTAzSo9u7JVBTKgk1/img.png|CDM|1.3|{"originWidth":240,"originHeight":184,"style":"alignCenter","width":381,"height":292,"caption":"hash함수의 도식화"}_##]
+
 
 해시함수중에는 암호학적 해시함수(Cryptographic Hash Function)와 비암호학적 해시함수로 구분되곤 한다.
 
